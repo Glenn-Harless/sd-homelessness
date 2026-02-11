@@ -4,6 +4,8 @@ Interactive dashboard tracking homelessness trends in San Diego County through t
 
 ## Dashboard
 
+**Live Dashboard**: https://sd-homelessness.streamlit.app/
+
 Five tabs exploring different dimensions of the data:
 
 - **Overview** — Latest PIT count headline, sheltered/unsheltered split, year-over-year change
