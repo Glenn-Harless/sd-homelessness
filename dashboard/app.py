@@ -371,6 +371,13 @@ with tab_spending:
         "PIT year roughly aligns with the start of the fiscal year (FY2024 = July 2023, PIT 2024 = January 2024)."
     )
 
+    st.info(
+        "**Note on FY2021 spending:** The FY2021 figure includes one-time pandemic-era federal funding "
+        "(CARES Act, ARPA), which significantly increased the city's homelessness-related expenditures "
+        "for that year. Subsequent years reflect baseline departmental budgets.",
+        icon="\u2139\ufe0f",
+    )
+
     spending = query(f"""
         SELECT fiscal_year, amount
         FROM '{_AGG}/homelessness_spending.parquet'
