@@ -1,0 +1,15 @@
+data/raw/*
+!data/raw/sources.md
+!data/raw/pit_counts.csv
+!data/raw/pit_subpopulations.csv
+!data/raw/pit_geography.csv
+data/processed/*
+!data/processed/*.parquet
+data/aggregated/*
+!data/aggregated/*.parquet
+db/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.claude/
